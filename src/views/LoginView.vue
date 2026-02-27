@@ -46,10 +46,6 @@ const login = async () => {
     ElMessage.error(message)
   }
 }
-
-// ログイン情報
-// email: demo@example.com
-// pass: demo1234
 </script>
 <style scoped>
 .login-wrapper {
