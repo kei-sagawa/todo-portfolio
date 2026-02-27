@@ -35,7 +35,7 @@ const authStore = useAuthStore()
 const login = async () => {
   try {
     await authStore.login(form.email, form.password)
-    router.replace('/home')
+    router.replace('/todo')
   } catch (error: unknown) {
     const message =
       error instanceof Error
@@ -48,8 +48,8 @@ const login = async () => {
 }
 
 // ログイン情報
-// email: sagawatya@gmail.com
-// pass: 1234
+// email: demo@example.com
+// pass: demo1234
 </script>
 <style scoped>
 .login-wrapper {
